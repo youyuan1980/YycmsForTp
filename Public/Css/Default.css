@@ -1,0 +1,44 @@
+html, body
+{
+    font: normal 12px verdana;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    overflow: hidden;
+    height: 100%;
+}
+p
+{
+    margin: 5px;
+}
+.settings
+{
+    background-image: url(../ext/examples/shared/icons/fam/folder_wrench.png);
+}
+.nav
+{
+    background-image: url(../ext/examples/shared/icons/fam/folder_go.png);
+}
+
+#top
+{
+    height: 65px;
+    border: 0 none;
+    overflow: hidden;
+    background-image: url('../images/top-1.jpg');
+    background-repeat: repeat-x;
+    text-align: right;
+    line-height: 65px;
+    font-size: 12px;
+    color: #fff;
+}
+#top a
+{
+    color: #fff;
+    text-decoration: none;
+}
+#top a:hover
+{
+    color: #000;
+    text-decoration: underline;
+}
