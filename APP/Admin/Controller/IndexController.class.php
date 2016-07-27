@@ -6,26 +6,55 @@ class IndexController extends Controller {
     	session('userid','admin');
         session('username','超级管理员');
     	$userid=session("userid");
-    	$json="[";
-    	$sql="select id,name,pid,isparent,url from menu t where roleid ='' or roleid in ( select roleid from userinrole where userid='" .$userid."')  order by menuorder";
-    	$db=M();
-    	$rows=$db->query($sql);
-    	foreach ($rows as $row) {
-    		if ($json!="[") {
-            $json=$json.",";
-	        }
-	        $id = $row["id"];
-	        $pid = $row["pid"];
-	        $name = $row["name"];
-	        $isparent = "";
-	        if ($row["isparent"]=="1") {
-	            $isparent = ",isParent:true";
-	        }
-	        $url=",url:\"" . $row["url"] . "\",target:\"main\"";
-	        $json = $json."{\"id\":\"" . $id . "\",\"pId\":\"" . $pid . "\",open:true,\"name\":\"" . $name . "\"" . $isparent . $url . "}";
-    	}
-    	$json=$json.']';
+    	$db=D('menu');
+    	$json=$db->ShowMenuByJson($userid);
     	$this->assign('json',$json);
-        $this->display();
+        $this->display('index');
+    }
+
+    public function main()
+    {
+        $UserID=session("userid");
+        $UserName=session("username");
+        $userinrole=D('Userinrole');
+        $UserRoles=$userinrole->ShowUserRoles($UserID);
+        $this->assign('UserID',$UserID);
+        $this->assign('UserName',$UserName);
+        $this->assign('UserRoles',$UserRoles);
+        $this->display('main');
+    }
+
+    public function updpwd()
+    {
+        $this->display('updpwd');
+    }
+
+    public function doupdpwd()
+    {
+        if (IS_POST) {
+            $oldpwd = I('post.oldpwd');
+            $userpwd = I('post.userpwd');
+            $user= D('users');
+            $userid=session("userid");
+            //1为修改成功 ，2为密码错误，3为用户名错误
+            $flag=$user->updpwd($userid,$oldpwd,$userpwd);
+            switch ($flag) {
+                case '1':
+                    $this->success('修改成功',U('index/updpwd'),3);
+                    break;
+                case '2':
+                    $this->error('密码错误',U('index/updpwd'),3);
+                    break;
+                case '3':
+                    $this->error('用户名错误',U('index/updpwd'),3);
+                    break;
+                default:
+                    break;
+            }
+        }
+        else
+        {
+            $this->error('非法操作',U('index/updpwd'),5);
+        }
     }
 }
