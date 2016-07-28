@@ -10,7 +10,5 @@ return array(
 	'DB_PREFIX' => '', // 数据库表前缀
 	'DB_CHARSET'=> 'utf8', // 字符集
 	'DB_DEBUG'  =>  TRUE,
-	'AUTOLOAD_NAMESPACE' => array(
-	    'MYLIB'     => APP_PATH.'Admin/Common/Tool'
-	)
+	'PAGE_SIZE' => 10, //每页条数
 );
