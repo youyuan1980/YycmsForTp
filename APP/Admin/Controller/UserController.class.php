@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 namespace Admin\Controller;
 use Think\Controller;
 use Think\Page;
@@ -108,6 +108,7 @@ class UserController extends Controller
             $flag=$user->updpwd($userid,$oldpwd,$userpwd);
             switch ($flag) {
                 case '1':
+                case '0':
                     $this->success('修改成功',U('user/updpwd'),3);
                     break;
                 case '2':
@@ -155,8 +156,32 @@ class UserController extends Controller
     			}
     		}
     	}
+    	$this->useridreadonly='readonly=true';
+    	$this->actionurl=U('user/doedit',array('userid'=>$userid));
     	$this->rolelist=$rolerows;
     	$this->display('useredit');
+    }
+
+    public function doedit()
+    {
+    	$userid=I('post.userid');
+    	$username=I('post.username');
+    	$chkroles=I('post.chkroles');
+    	$user=M('users');
+    	if ($user->where("userid='".$userid."'")->setField("USERNAME",$username)!==false) {
+    		$userinrole=M('userinrole');
+    		$userinrole->where("USERID='".$userid."'")->delete();
+    		foreach ($chkroles as $row) {
+    			$userrole["USERID"]=$userid;
+    			$userrole["ROLEID"]=$row;
+    			$userinrole->data($userrole)->add();
+    		}
+    		$this->error('保存成功',U('user/edit',array('userid'=>$userid)),3);
+    	}
+    	else
+    	{
+    		$this->error('修改失败',U('user/edit',array('userid'=>$userid)),3); 
+    	}
 
     }
 }

@@ -6,7 +6,7 @@
     <script type="text/javascript" src="/yycmsfortp/Public/script/jquery-1.7.2.min.js"></script>
 </head>
 <body>
-    <form id="form1" method="post" action="">
+    <form id="form1" method="post" action="<?php echo ($actionurl); ?>">
         <div>
             <div class="PageHeader">
                 <div class="PageTitle">
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="PageToolBar" id="PageToolBar">
-                <img src="/yycmsfortp/Public/Images/add.gif" /><a id="c1" href="#" onclick="cl_Click();">保存</a>
+                <img src="/yycmsfortp/Public/Images/add.gif" /><a id="c1" href="#" onclick="submit()">保存</a>
             </div>
             <div id="container">
                 <div id="content">
@@ -23,7 +23,7 @@
                         <tr>
                             <td width="10%">用户ID</td>
                             <td>
-                                <input type="text" name="userid" id="userid" width="300" value='<?php echo ($userid); ?>' />
+                                <input type="text" <?php echo ($useridreadonly); ?> name="userid" id="userid" width="300" value='<?php echo ($userid); ?>' />
                             </td>
                         </tr>
                         <tr id="a1">

@@ -37,10 +37,5 @@ class UsersModel extends Model
 		}
 		return $flag;
 	}
-
-	public function userlist()
-	{
-
-	}
 }
  ?>
