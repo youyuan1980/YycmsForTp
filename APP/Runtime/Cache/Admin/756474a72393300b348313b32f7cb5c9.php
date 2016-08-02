@@ -41,13 +41,13 @@
     </script>
 </head>
 <body>
-    <form action="<?php echo U('user/userlist');?>" method="get" >
+    <form action="<?php echo U('user/list');?>" method="get" >
         <div>
             <div class="PageHeader">
                 <div class="PageTitle">用户管理 > 用户列表</div>
             </div>
             <div class="PageToolBar">
-                <img src="/yycmsfortp/Public/Images/add.gif"><a href="{U('user/add')}">添加用户</a>
+                <img src="/yycmsfortp/Public/Images/add.gif"><a href="<?php echo U('user/add');?>">添加用户</a>
             </div>
             <div id="PageTitle">
                     用户ID或用户姓名：
@@ -68,6 +68,7 @@
                     </table>
                     <table id="pager"><tr><td><div class="pages"><?php echo ($page); ?></div></td></tr>
                     </table>
+                </div>
             </div>
         </div>
     </form>

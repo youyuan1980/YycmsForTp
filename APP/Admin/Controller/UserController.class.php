@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 namespace Admin\Controller;
 use Think\Controller;
 use Think\Page;
@@ -176,12 +176,56 @@ class UserController extends Controller
     			$userrole["ROLEID"]=$row;
     			$userinrole->data($userrole)->add();
     		}
-    		$this->error('保存成功',U('user/edit',array('userid'=>$userid)),3);
+    		$this->success('保存成功',U('user/edit',array('userid'=>$userid)),3);
     	}
     	else
     	{
-    		$this->error('修改失败',U('user/edit',array('userid'=>$userid)),3); 
+    		$this->error('修改失败',U('user/edit',array('userid'=>$userid)),3);
     	}
+    }
+
+    public function add()
+    {
+        $this->title="添加用户信息";
+        $roles=M('roles');
+        $rolerows=$roles->field("roleid,rolename,'' as ischecked")
+                        ->order('ordernum')
+                        ->select();
+        $this->actionurl=U('user/doadd');
+        $this->rolelist=$rolerows;
+        $this->display('useredit');
+    }
+
+    public function doadd()
+    {
+        $userid=I('post.userid');
+        $username=I('post.username');
+        $chkroles=I('post.chkroles');
+        $user=M('users');
+        $data["USERID"]=$userid;
+        $data["USERNAME"]=$username;
+        $data["USERPASSWORD"]=md5('123');
+        $count=$user->where("USERID='".$userid."'")->count();
+        if ($count==0) {
+            if ($user->data($data)->add()!==false) {
+                $userinrole=M('userinrole');
+                $userinrole->where("USERID='".$userid."'")->delete();
+                foreach ($chkroles as $row) {
+                    $userrole["USERID"]=$userid;
+                    $userrole["ROLEID"]=$row;
+                    $userinrole->data($userrole)->add();
+                }
+                $this->success('保存成功',U('user/add'),3);
+            }
+            else
+            {
+                $this->error('修改失败',U('user/add'),3);
+            }
+        }
+        else
+        {
+            $this->error('用户名已存在',U('user/add'),3);
+        }
 
     }
 }
