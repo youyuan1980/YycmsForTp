@@ -5,6 +5,5 @@
 	define('APP_NAME', 'Admin');
 	define('APP_DEBUG', true);
 	define('BIND_MODULE', 'Admin');
-	define ( 'COMMON_PATH', './APP/Common/' );
 	require THINK_PATH.'ThinkPHP.php';
  ?>

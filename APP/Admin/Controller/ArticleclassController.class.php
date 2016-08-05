@@ -6,6 +6,10 @@ class ArticleclassController extends Controller
 {
 	public function ArticleClassList()
 	{
+		$p=I('get.p');
+		if ($p=="") {
+			$p=1;
+		}
 		$pid=I('get.pid','-1');
 		$tbtitle=I('get.TbTitle','');
 		$articleclassherf="";
@@ -49,7 +53,6 @@ class ArticleclassController extends Controller
 		# code...
 		$pid=I('get.pid','-1');
 		$classid=I('get.id','');
-		$title=I('get.title');
 		if ($classid=="") {
 			# code...
 			$this->error('缺少参数',U('articleclass/articleclasslist',array("pid"=>$pid)),3);
@@ -98,8 +101,68 @@ class ArticleclassController extends Controller
 
 	public function add()
 	{
-		# code...
-		echo MM();
+		$pid=I('get.pid','-1');
+		$articleclass=M('article_classlist');
+		if ($pid=="-1") {
+			$this->assign('ptitle','根目录');
+		}
+		else
+		{
+			$row=$articleclass->where("id='".$pid."'")->find();
+			if ($row) {
+				$this->assign('ptitle',$row["title"]);
+			}
+		}
+		$this->assign('classid',GetID());
+		$this->assign('pid',$pid);
+		$this->assign('actionurl',U('articleclass/doadd'));
+		$this->assign('pagetitle','添加栏目信息');
+		$this->display('articleclassedit');
+	}
+
+	public function doadd()
+	{
+		$classid=I('post.classid');
+		$title=I('post.title');
+		$pid=I('post.pid');
+		$articleclass=M('article_classlist');
+		$data["ID"]=$classid;
+		$data["TITLE"]=$title;
+		$data["UPTIME"]=date('Y-m-d H:i:s');
+		$data["PARENTID"]=$pid;
+		$flag=$articleclass->data($data)->add();
+		if ($flag) {
+			$this->success("保存成功",U('articleclass/add',array("pid"=>$pid)),3);
+		}
+		else
+		{
+			$this->error("保存失败",U('articleclass/add',array("pid"=>$pid)),3);
+		}
+	}
+
+	public function delarticleclass()
+	{
+		$classid=I('id');
+		$data["p"]=I('p');
+		$data["pid"]=I('pid');
+		$data["tbtitle"]=I('tbTitle');
+		if (IS_AJAX) {
+			# code...
+			$articleclass=M('article_classlist');
+			if ($articleclass->where("ID='".$classid."'")->delete()) {
+				$data["info"]="删除成功";
+			}
+			else
+			{
+				$data["info"]="删除失败";
+			}
+		}
+		else
+		{
+			$data["info"]="非法操作";
+		}
+		$data["url"]=U('articleclass/articleclasslist',array('pid'=>$data['pid'],'p'=>$data["p"],'tbtitle'=>$data["tbtitle"]));
+		$this->ajaxReturn($data);
 	}
 }
  ?>

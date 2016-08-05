@@ -1,7 +1,9 @@
 <?php
-function MM()
+function GetID()
 {
-	# code...
-	return '1212';
+	$id=0;
+	$time =microtime(true)-strtotime('1970-01-01 00:00:00');
+	$id=ceil($time*100);
+	return $id;
 }
  ?>
