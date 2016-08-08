@@ -1,14 +1,13 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class IndexController extends BaseController {
     public function index(){
-    	session('userid','admin');
-        session('username','超级管理员');
     	$userid=session("userid");
-    	$db=D('menu');
-    	$json=$db->ShowMenuByJson($userid);
-    	$this->assign('json',$json);
+        $db=D('menu');
+        $json=$db->ShowMenuByJson($userid);
+        $this->assign('json',$json);
+        $this->assign('username',session("username"));
         $this->display('index');
     }
 

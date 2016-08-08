@@ -24,7 +24,7 @@
     <div id="north">
         <div id="top">
             <img src="images/top.jpg" align="left" width='90%' height='200'/>
-            <!--<?php echo $_SESSION["username"]; ?>&nbsp;<a href="login.php?action=logout" target="_top">退出系统</a>--><span
+            <?php echo ($username); ?>&nbsp;<a href="<?php echo U('login/logout');?>">退出系统</a><span
                 style="margin-right: 30px;"></span></div>
     </div>
     <iframe height="100%" width="100%" src="<?php echo U('user/main');?>" name="main" frameborder="no" id="main" border="0">

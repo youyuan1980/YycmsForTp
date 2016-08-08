@@ -2,7 +2,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 use Think\Page;
-class ArticleController extends Controller
+class ArticleController extends BaseController
 {
 	public function ArticleList()
 	{

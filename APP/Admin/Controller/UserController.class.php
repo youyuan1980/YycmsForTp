@@ -2,7 +2,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 use Think\Page;
-class UserController extends Controller
+class UserController extends BaseController
 {
 	public function UserList()
 	{
@@ -64,7 +64,7 @@ class UserController extends Controller
 		if (IS_AJAX) {
 			$user=M('users');
 			$pwd=md5('123');
-			if ($user->where("userid='".$userid."'")->setField('USERPASSWORD',$pwd)) {
+			if ($user->where("userid='".$userid."'")->setField('USERPASSWORD',$pwd)!==false) {
 				$data["info"]="密码重置成功，新密码为123";
 			}
 			else
