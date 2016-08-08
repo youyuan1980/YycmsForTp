@@ -28,7 +28,7 @@
                 <div class="PageTitle">信息管理 > 信息列表</div>
             </div>
             <div class="PageToolBar">
-                <img src="/yycmsfortp/Public/Images/add.gif"><a href="#" onclick="add();">添加信息</a>
+                <img src="/yycmsfortp/Public/Images/add.gif"><a href="<?php echo ($addurl); ?>">添加信息</a>
             </div>
             <div id="PageTitle">
                     <?php echo ($classurl); ?>
