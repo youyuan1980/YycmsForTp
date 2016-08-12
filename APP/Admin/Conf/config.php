@@ -11,4 +11,5 @@ return array(
 	'DB_CHARSET'=> 'utf8', // 字符集
 	'DB_DEBUG'  =>  TRUE,
 	'PAGE_SIZE' => 10, //每页条数
+	'URL_CASE_INSENSITIVE' =>true
 );
