@@ -70,7 +70,7 @@ class ArticleController extends BaseController
 		$this->assign('articlelist',$list);
 		$this->assign('addurl',U('article/add',array("class"=>$classid)));
 		$this->assign('tbtitle',$tbtitle);
-		$this->display('articlelist');
+		$this->display('ArticleList');
 	}
 
 	public function delarticle()
