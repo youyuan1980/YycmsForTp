@@ -1,0 +1,943 @@
+[ 2016-09-16T15:13:07+08:00 ] 127.0.0.1 /yycmsfortp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019185s ]
+
+[ 2016-09-16T15:14:18+08:00 ] 127.0.0.1 /yycmsfortp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-09-16T15:14:21+08:00 ] 127.0.0.1 /yycmsfortp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+
+[ 2016-09-16T15:14:21+08:00 ] 127.0.0.1 /yycmsfortp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-09-16T15:17:31+08:00 ] 127.0.0.1 /yycmsfortp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-09-16T15:19:32+08:00 ] 127.0.0.1 /yycmsfortp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025330s ]
+
+[ 2016-09-16T15:19:35+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002928s ]
+
+[ 2016-09-16T15:19:40+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( userid='admin' ) LIMIT 1   [ RunTime:0.0143s ]
+SQL: SELECT `userid`,`userpassword` FROM `users` WHERE ( userid='admin' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-09-16T15:19:43+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2016-09-16T15:19:47+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( userid='admin' ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT `userid`,`userpassword` FROM `users` WHERE ( userid='admin' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE ( userid='admin' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-09-16T15:19:50+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0202s ]
+SQL: SELECT `id`,`name`,`pid`,`isparent`,`url` FROM `menu` WHERE ( roleid ='' or roleid in ( select roleid from userinrole where userid='admin') ) ORDER BY menuorder  [ RunTime:0.0221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2016-09-16T15:19:50+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/index/images/top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+
+[ 2016-09-16T15:19:50+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/index/images/top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-09-16T15:19:51+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/user/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `userinrole` [ RunTime:0.0077s ]
+SQL: SELECT `rolename` FROM `userinrole` INNER JOIN  roles on roles.roleid=userinrole.roleid  WHERE (  userid='admin' )  [ RunTime:0.0247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2016-09-16T15:19:51+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/user/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `userinrole` [ RunTime:0.0077s ]
+SQL: SELECT `rolename` FROM `userinrole` INNER JOIN  roles on roles.roleid=userinrole.roleid  WHERE (  userid='admin' )  [ RunTime:0.0118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-09-16T15:19:53+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/user/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `userinrole` [ RunTime:0.0074s ]
+SQL: SELECT `rolename` FROM `userinrole` INNER JOIN  roles on roles.roleid=userinrole.roleid  WHERE (  userid='admin' )  [ RunTime:0.0124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-09-16T15:19:55+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0209s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0117s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-09-16T15:20:00+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/articleclass/articleclasslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article_classlist` WHERE ( title like '%%' and parentid='-1' ) LIMIT 1   [ RunTime:0.0116s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( title like '%%' and parentid='-1' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-09-16T15:20:40+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0073s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0114s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0116s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-09-16T15:21:35+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0074s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0129s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0114s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-09-16T15:21:58+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0078s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0124s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0123s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-09-16T15:23:00+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0074s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0133s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0116s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-09-16T15:23:24+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0080s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0122s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0116s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-09-16T15:23:37+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0076s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0115s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0119s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-09-16T15:24:06+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0077s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0121s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0113s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-09-16T15:24:23+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0077s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0119s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0118s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2016-09-16T15:24:51+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0075s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0121s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0113s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-09-16T15:26:39+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0073s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0119s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-09-16T15:26:43+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/articleclass/articleclasslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article_classlist` WHERE ( title like '%%' and parentid='-1' ) LIMIT 1   [ RunTime:0.0117s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( title like '%%' and parentid='-1' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-09-16T15:26:45+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/user/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( username like '%%' or userid like '%%' ) LIMIT 1   [ RunTime:0.0165s ]
+SQL: SELECT * FROM `users` WHERE ( username like '%%' or userid like '%%' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 65 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 65 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 65 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 65 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 65 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 65 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 65 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 65 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 65 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2016-09-16T15:26:47+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0073s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0116s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0107s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-09-16T15:27:40+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/user/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( username like '%%' or userid like '%%' ) LIMIT 1   [ RunTime:0.0119s ]
+SQL: SELECT * FROM `users` WHERE ( username like '%%' or userid like '%%' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 64 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 64 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 64 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 64 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 64 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 64 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 64 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 64 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 64 行.
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\756474a72393300b348313b32f7cb5c9.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-09-16T15:27:42+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/articleclass/articleclasslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article_classlist` WHERE ( title like '%%' and parentid='-1' ) LIMIT 1   [ RunTime:0.0123s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( title like '%%' and parentid='-1' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant parentid - assumed 'parentid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\43c97ce36d2beacba8bc88ac9847e16b.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-09-16T15:27:43+08:00 ] 127.0.0.1 /yycmsfortp/admin.php/article/articlelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `article_classlist` [ RunTime:0.0074s ]
+SQL: SELECT `ID`,`TITLE`,`PARENTID` FROM `article_classlist` WHERE ( PARENTID='-1' ) LIMIT 1   [ RunTime:0.0122s ]
+SQL: SELECT `TITLE`,`ID` FROM `article_classlist` WHERE ( PARENTID='-1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( ISDELETE='0' and title like '%%' and classid='1001' ) LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT `ID`,`TITLE`,`CLASSID` FROM `article` WHERE ( ISDELETE=0 and title like '%%' and classid='1001' ) ORDER BY uptime desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant classid - assumed 'classid' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\yycms\yycmsfortp\APP\Runtime\Cache\Admin\6d8c2e5f3fefbba2f6505f995a7e9a30.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+

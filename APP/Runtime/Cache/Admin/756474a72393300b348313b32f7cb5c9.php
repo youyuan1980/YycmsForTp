@@ -57,8 +57,7 @@
                 </div>
             <div id="container">
                 <div id="content">
-
-                    <table border="0" id='userlist' class="GridTable">
+                    <table border="0" id='userlist' class="table table-hover table-bordered table-condensed">
                     	<thead><tr><th>用户ID</th><th>用户名</th><th>操作</th></tr></thead>
 						<tbody>
 							<?php if(is_array($userlist)): $i = 0; $__LIST__ = $userlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><tr><td><?php echo ($item["userid"]); ?></td><td><?php echo ($item["username"]); ?></td>

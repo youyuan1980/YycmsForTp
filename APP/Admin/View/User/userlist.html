@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/css.css"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Bootstrap/css/bootstrap.min.css"/>
     <script type="text/javascript" src="__PUBLIC__/script/jquery-1.7.2.min.js"></script>
     <script>
     function del_user(userid)
@@ -57,8 +58,7 @@
                 </div>
             <div id="container">
                 <div id="content">
-
-                    <table border="0" id='userlist' class="GridTable">
+                    <table border="0" id='userlist' class="table table-hover table-bordered table-condensed">
                     	<thead><tr><th>用户ID</th><th>用户名</th><th>操作</th></tr></thead>
 						<tbody>
 							<volist name="userlist" id="item">

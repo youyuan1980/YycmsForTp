@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 return array(
 	//'配置项'=>'配置值'
 	'DB_TYPE'   => 'mysql', // 数据库类型
@@ -11,7 +11,7 @@ return array(
 	'DB_CHARSET'=> 'utf8', // 字符集
 	'DB_DEBUG'  =>  TRUE,
 	'PAGE_SIZE' => 10, //每页条数
-<<<<<<< HEAD
+
 	// 'DB_TYPE'   => 'mysql', // 数据库类型
 	// 'DB_HOST'   => 'localhost', // 服务器地址
 	// 'DB_NAME'   => 'a0411125417', // 数据库名
@@ -22,7 +22,5 @@ return array(
 	// 'DB_CHARSET'=> 'utf8', // 字符集
 	// 'DB_DEBUG'  =>  TRUE,
 	// 'PAGE_SIZE' => 10, //每页条数
-=======
 	'URL_CASE_INSENSITIVE' =>true
->>>>>>> 10255dfc82097fde34b3ec4fed71eeed7c40cd39
 );

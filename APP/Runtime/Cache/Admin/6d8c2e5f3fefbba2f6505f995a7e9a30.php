@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="/yycmsfortp/Public/css/css.css"/>
+    <link rel="stylesheet" type="text/css" href="/yycmsfortp/Public/Bootstrap/css/bootstrap.min.css"/>
     <script type="text/javascript" src="/yycmsfortp/Public/script/jquery-1.7.2.min.js"></script>
     <script>
         function del_article (id) {
@@ -39,7 +40,7 @@
                 </div>
             <div id="container">
                 <div id="content">
-                    <table border="0" id='articlelist' class="GridTable">
+                    <table border="0" id='articlelist' class="table table-hover table-bordered table-condensed">
                         <thead><tr><th>标题</th><th>操作</th></tr></thead>
                         <tbody>
                             <?php if(is_array($articlelist)): $i = 0; $__LIST__ = $articlelist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><tr><td><?php echo ($item["title"]); ?></td>
