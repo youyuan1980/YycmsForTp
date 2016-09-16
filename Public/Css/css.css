@@ -117,49 +117,6 @@ a.menu_btn:hover {
 	border:solid 1px #E8E8E8;
 	font-size:9pt;
 }
-
-.GridTable
-{
-	clear:both;
-	width:100%;
-	border:solid 1px #9EB6CE;
-	border-collapse:collapse;
-}
-.GridTableRowOver
-{
-	background-color:#E4ECF7;
-}
-.GridTableRowSelected
-{
-	background-color:#E4ECF7;
-}
-.GridTable th
-{
-	border-right:solid 1px #CCCCCC;
-	border-left:solid 1px #9EB6CE;
-	border-top:solid 1px #9EB6CE;
-	border-bottom:solid 1px #CCCCCC;
-	background-image:url(../images/grid-hrow.gif);
-	background-repeat:repeat-x;
-	height:21px;
-	line-height:21px;
-	padding:0px 3px 0px 3px;
-	font-size:9pt;
-}
-.GridTable td
-{
-	padding:3px 2px 3px 6px;
-	height:18px;
-	border-right:solid 1px #CCCCCC;
-	border-bottom:solid 1px #CCCCCC;
-}
-.GridTableTitle
-{
-	margin:10px 10px;
-	color:Black;
-	font-size:11pt;
-	font-weight:bold;
-}
 #container
 {
 	padding:8px 8px;

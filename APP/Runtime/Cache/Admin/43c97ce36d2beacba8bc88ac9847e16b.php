@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="/yycmsfortp/Public/css/css.css"/>
+    <link rel="stylesheet" type="text/css" href="/yycmsfortp/Public/Bootstrap/css/bootstrap.min.css"/>
     <script type="text/javascript" src="/yycmsfortp/Public/script/jquery-1.7.2.min.js"></script>
     <script>
         function del_articleclass(id)
